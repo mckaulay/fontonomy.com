@@ -1,0 +1,6 @@
+ErrorDocument 404 /404.html
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fontonomy.com [NC]
+RewriteRule ^(.*)$ http://www.fontonomy.com/$1 [L,R=301,NC]

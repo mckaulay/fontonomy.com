@@ -1,0 +1,152 @@
+.body-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.title-by-line {
+    /*font-style: italic*/
+}
+body {
+    font-size: 1.25rem;
+    background-color: #f4f2f0;
+    font-family: 'Rosario', 'Vollkorn', serif;
+    /*#f0edeb*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: .25rem;
+    margin-right: 2rem;
+    font-size: 1.85rem;
+    line-height: inherit;
+    font-weight: 700;
+}
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 1.5rem;
+}
+.navbar-red {
+    background-color: #b71c1c;
+}
+.lead {
+    font-size: 1.5rem;
+}
+.specimen {
+    margin-bottom: 0;
+    font-size: 2.8rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: -1.25rem;
+    /*text-overflow: ellipsis;*/
+    font-weight: 700;
+}
+.specimen-2 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.font-info {
+    margin-bottom: 0;
+}
+.page-item.active .page-link,
+.page-item.active .page-link:focus,
+.page-item.active .page-link:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #b71c1c;
+    /* background-color: #0275d8; */
+    /* border-color: #0275d8; */
+    border-color: #b71c1c;
+}
+.page-link:focus,
+.page-link:hover {
+    background: transparent;
+    border: none;
+}
+.page-link {
+    background: transparent;
+    border: none;
+    color: #b71c1c;
+    padding: .2rem .75rem;
+    border-radius: .25rem;
+}
+.page-item.disabled .page-link,
+.page-item.disabled .page-link:focus,
+.page-item.disabled .page-link:hover {
+    color: #818a91;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+footer {
+    background-color: #b71c1c;
+}
+bottom-border {
+    border-bottom: 4px solid;
+}
+
+/*Share buttons*/
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+ul.share-buttons li {
+    display: inline;
+}
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+ul.share-buttons img {
+    width: 32px;
+}
+
+/**
+ * Footer Styles
+ */
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*text-align: center;*/
+}
